@@ -3,7 +3,7 @@ import sys
 def calculate_speed(distance, time):
     return distance / time
 
-if _name_ == "_main_":
+if __name__ == "__main__:
     # If command line arguments are given
     if len(sys.argv) == 3:
         distance = float(sys.argv[1])
